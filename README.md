@@ -4,7 +4,7 @@
 
 ◦ Analiza bazy danych sklepu modelarskiego (MySQL) skupiona na kluczowych metrykach biznesowych. Projekt pokazuje umiejętność przekształcania surowych danych w gotowe raporty dla biznesu.
 
-🚀 Wykorzystane techniki SQL
+## 🚀 Wykorzystane techniki SQL
 
 * Złożone złączenia (JOINS): łączenie danych o klientach, zamówieniach i płatnościach.
 
