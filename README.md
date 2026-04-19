@@ -2,7 +2,7 @@
 
 ## 📌 O projekcie
 
-◦ Analiza bazy danych sklepu modelarskiego (MySQL) skupiona na kluczowych metrykach biznesowych. Projekt pokazuje umiejętność przekształcania surowych danych w gotowe raporty dla biznesu.
+◦ Analiza bazy danych sklepu modelarskiego (MySQL) skupiona na kluczowych metrykach biznesowych.
 
 ## 🚀 Wykorzystane techniki SQL
 
