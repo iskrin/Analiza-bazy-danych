@@ -17,6 +17,8 @@ SQL Data Analysis: E-commerce Case Study
 ◦ Agregacje: zaawansowane obliczenia statystyczne i finansowe.
 
 
+
+
 📊 Co zawiera analiza?
 
 ◦ Raport TOP 10 najbardziej wartościowych klientów.
@@ -26,6 +28,8 @@ SQL Data Analysis: E-commerce Case Study
 ◦ Porównanie wyników pracowników ze średnią firmy (KPI).
 
 ◦ Ranking liderów sprzedaży w każdej linii produktowej.
+
+
 
 🛠️ Narzędzia
 
