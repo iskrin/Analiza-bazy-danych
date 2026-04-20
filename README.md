@@ -1,10 +1,10 @@
 # SQL Data Analysis: E-commerce Case Study
 
-## 📌 O projekcie
+## O projekcie
 
 ◦ Analiza bazy danych sklepu modelarskiego (MySQL) skupiona na kluczowych metrykach biznesowych.
 
-## 🚀 Wykorzystane techniki SQL
+##  Wykorzystane techniki SQL
 
 * Złożone złączenia (JOINS): łączenie danych o klientach, zamówieniach i płatnościach.
 
@@ -19,7 +19,7 @@
 
 
 
-## 📊 Co zawiera analiza?
+## Co zawiera analiza?
 
 * Raport TOP 10 najbardziej wartościowych klientów.
 
@@ -31,7 +31,7 @@
 
 
 
-## 🛠️ Narzędzia
+## Narzędzia
 
 * Silnik bazy danych: MySQL 8.0
 
