@@ -3,7 +3,7 @@
 SELECT 
     productName,
     buyPrice,
-    MSRP (Manufacturer Suggested Retail Price),
+    MSRP /*(Manufacturer Suggested Retail Price)*/,
     (MSRP - buyPrice) AS absolute_margin,
     CASE 
         WHEN (MSRP - buyPrice) > 50 THEN 'High Margin'
