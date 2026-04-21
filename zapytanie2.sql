@@ -1,14 +1,14 @@
-/* CEL: Znalezienie 10 najbardziej wartościowych klientów na podstawie sumy ich wpłat.*/
+/* CEL: Klasyfikacja produktów na podstawie ich marży (różnica między ceną sprzedaży a kosztem zakupu).*/
 
 SELECT 
-    c.customerName, 
-    c.city, 
-    c.country, 
-    COUNT(o.orderNumber) AS total_orders,
-    SUM(p.amount) AS total_paid
-FROM customers c
-JOIN orders o ON c.customerNumber = o.customerNumber
-JOIN payments p ON c.customerNumber = p.customerNumber
-GROUP BY c.customerNumber
-ORDER BY total_paid DESC
-LIMIT 10;
+    productName,
+    buyPrice,
+    MSRP (Manufacturer Suggested Retail Price),
+    (MSRP - buyPrice) AS absolute_margin,
+    CASE 
+        WHEN (MSRP - buyPrice) > 50 THEN 'High Margin'
+        WHEN (MSRP - buyPrice) BETWEEN 20 AND 50 THEN 'Medium Margin'
+        ELSE 'Low Margin'
+    END AS margin_category
+FROM products
+ORDER BY absolute_margin DESC;
