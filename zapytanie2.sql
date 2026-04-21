@@ -1,6 +1,4 @@
-/* CEL: Znalezienie 10 najbardziej wartościowych klientów na podstawie sumy ich wpłat.
-POZIOM: Podstawowy/Średni
-*/
+/* CEL: Znalezienie 10 najbardziej wartościowych klientów na podstawie sumy ich wpłat.*/
 
 SELECT 
     c.customerName, 
